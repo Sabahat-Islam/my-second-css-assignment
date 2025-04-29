@@ -1,0 +1,300 @@
+
+/* CDN-LINK */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    background-color: wheat;
+    height: 100vh;
+}
+
+/* SIDE-BAR */
+
+.sidebar{
+    align-items: center;
+    position: fixed;
+    background-color: rgb(128, 0, 0);
+    width: 20%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img{
+    width: 10em;
+    height: 10em;
+    border: 12px solid rgba(182, 98, 112, 0.4);
+    border-radius: 50%;
+    margin: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.img img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+ul{
+    margin: -2em 0;
+    list-style: none;
+    margin-left: 5em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(238, 209, 164);
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    padding: 10px 0;
+}
+
+ul li a:hover {
+    color: rgb(241, 114, 114);
+}
+
+/* MAIN-CONTENT */
+
+.content{
+    height: 620vh;
+}
+
+/* ABOUT-SECTION */
+
+.content {
+    width: 100%;
+    display: inline-block;
+    overflow: auto;
+    text-align: center;
+}
+
+.content h1{
+    color: black;
+    padding-right: 250px;
+    font-weight: 800;
+    font-size: 70px;
+    padding-top: 155px;
+}
+
+.about-section .text-color{
+    color:  rgb(128, 0, 0);
+}
+
+.content p{
+    padding-right: 107px;
+    font-size: 17px;
+    font-weight: 100;
+    
+}
+
+.about-section .text{
+    font-style: normal;
+    padding-left: 305px;
+    text-align: start;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+/* ICON-STYLING */
+
+.icon {
+    display: flex;
+    gap: 2rem;
+    font-size: 2em;
+    justify-content: start;
+    margin-left: 310px;
+}
+
+.icon a i {
+    transition: color 0.3s ease;
+    background-color: gray;
+    color: white;
+    border-radius: 850px;
+    height: 45px;
+    width: 55px;
+    padding-top: 12px;
+}
+
+.icon a i:hover {
+    background-color: rgb(128, 0, 0);
+    color: black;
+}
+
+/* EXPERIENCE-SECTION */
+
+.experience-section h1{
+    font-weight: 100;
+    font-size: 60px;
+    padding-right: 400px;
+}
+
+.experience-section h2{
+    font-weight: lighter;
+    padding-right: 447px;
+}
+
+.experience-section h3{
+    font-weight: lighter;
+    padding-right: 510px;
+    color: rgb(109, 107, 107);
+}
+
+.experience-section .exp-date{
+    color: rgb(128, 0, 0);
+    font-weight: lighter;
+    margin-left: 1010px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.experience-section .exp-text{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 18em;
+    text-align: start;
+}
+
+.experience-section .heading2{
+    font-weight: lighter;
+    padding-right: 510px;
+}
+
+.experience-section .exp-text2{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 18em;
+    text-align: start;
+}
+
+/* EDUCATION-SECTION */
+
+.education-section h1{
+    font-weight: 100;
+    font-size: 60px;
+    padding-right: 400px;
+}
+
+.education-section h2{
+    font-weight: lighter;
+    padding-right: 330px;
+}
+
+.education-section h3{
+    font-weight: lighter;
+    padding-right: 487px;
+    color: rgb(109, 107, 107);
+}
+
+.education-section .edu-date{
+    color: rgb(128, 0, 0);
+    font-weight: lighter;
+    margin-left: 1010px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.education-section .edu-text{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 18.4em;
+    text-align: start;
+}
+
+.education-section .heading2{
+    font-weight: lighter;
+    padding-right: 350px;
+}
+
+.education-section .heading3{
+    font-weight: lighter;
+    padding-right: 410px;
+}
+
+.education-section .edu-text2{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 18.5em;
+    text-align: start;
+}
+
+/* SKILLS-SECTION */
+
+.skills-section h1{
+    font-weight: 100;
+    font-size: 60px;
+    padding-right: 480px;
+}
+
+.skills-section h3{
+    font-weight: lighter;
+    padding-right: 375px;
+    color: rgb(109, 107, 107);
+}
+
+.icons img{
+    height: 40px;
+    border-radius: 10%;
+    display: inline;
+    padding-left: 5px;
+}
+
+.skills-section .heading3{
+    padding-right: 540px;
+}
+
+.check{
+    color: rgba(99, 98, 98, 0.877);
+}
+
+.skills-section ul li{
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    margin-left: 15em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+/* INTERESTS-SECTION */
+
+.interests-section h1{
+    font-weight: 100;
+    font-size: 60px;
+    padding-right: 400px;
+}
+
+.para{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 18.5em;
+    text-align: start;
+}
+
+/* AWARDS-SECTION */
+
+.awards-section h1{
+    font-weight: 100;
+    font-size: 60px;
+    padding-right: 30px;
+}
+
+.para0{
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 19.5em;
+    text-align: start;
+}
+
+.trophy{
+    color: grey;
+}
